@@ -3,7 +3,7 @@ class DotenvCrypt < Formula
   homepage "https://github.com/gritse/dotenv-crypt"
   url "https://github.com/gritse/dotenv-crypt/archive/refs/tags/v0.1.tar.gz"
   sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
-  license "MIT"
+  license "GPL-2.0-only"
 
   depends_on xcode: ["15.0", :build]
   depends_on :macos
