@@ -1,8 +1,8 @@
 class DotenvCrypt < Formula
   desc "Encrypt individual values in .env files using AES-256-GCM with macOS Keychain"
   homepage "https://github.com/gritse/dotenv-crypt"
-  url "https://github.com/gritse/dotenv-crypt/archive/refs/tags/v0.3.tar.gz"
-  sha256 "980ea6c679e714c4d8957decb179f44da799041da51edee547b50c53de58f7cb"
+  url "https://github.com/gritse/dotenv-crypt/archive/refs/tags/v0.4.tar.gz"
+  sha256 "8defc223f2534d9fdf36075b9b489133504c453bc0024a92bbd4f78a00019338"
   license "GPL-2.0-only"
 
   depends_on xcode: ["15.0", :build]
